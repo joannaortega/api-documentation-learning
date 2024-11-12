@@ -1,0 +1,36 @@
+Notes: 
+
+API Documentation
+- Step 1: Resource Description
+- Step 2: Endpoints and methods
+- Step 3: Parameters
+- Step 4: Request example
+- Step 5: Response example and Schema
+
+
+Method
+- Get: Retrieves a resource
+- Post: Creates a resource
+- Put: Updates or creates within an existing resource
+- Patch: Partially modifies an existing resource
+- Delete: Removes the resource
+
+
+Parameters
+Table should probably include:
+  - Paramenter
+  - Required/Optional
+  - Data Type
+  - Max/Min value - not necessary for booleans or strings that use enums
+
+Types of Parameters
+  - Header: Parameter in request header (usually authorization)
+  - Path: Parameter in path of endpoint before (?); order matters
+  - Query string parameters: parameters in query string of endpoint, after (?); each parameter is listed one after the other with an (&) as a separator; order does not matter
+
+  Data Types:
+  - String: alphanumeric sequence of letters and/or numbers
+  - Integer: a whole number; positive or negative
+  - Boolean: true or false
+  - Object: Key-value pairs in json format
+  - Array: list of values
