@@ -1,5 +1,7 @@
 Notes: 
 
+*You can use HTML instead of markdown to control the column widths in tables.
+
 API Documentation
 - Step 1: Resource Description
 - Step 2: Endpoints and methods
@@ -20,6 +22,7 @@ Parameters
 Table should probably include:
   - Paramenter
   - Required/Optional
+  - Description
   - Data Type
   - Max/Min value - not necessary for booleans or strings that use enums
 
@@ -34,3 +37,24 @@ Types of Parameters
   - Boolean: true or false
   - Object: Key-value pairs in json format
   - Array: list of values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
