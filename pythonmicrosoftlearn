@@ -1,0 +1,34 @@
+Python
+
+integers: int
+decimals: float
+
+type() = tells you the variable's data type.
+
+String: collection of zero or more characters, use single or double quotation marks
+
+
+Calendar
+first_number = int(input('Type the first number: ')) ;\
+second_number = int(input('Type the second number: ')) ;\
+print("The sum is: ". first_number + second_number)
+
+Type                Description                        Examples
+Numeric      Number, with or without decimals      int, float, complex, no = 3
+Text          String of characters                  str = "a literal string"
+Boolean        Boolean                              continue = True
+
+
+
+<left side> <operator> <right side>
+one = 1
+
+Operator types
++, -, *, /
+
+Assignment Operators
+= now contains
++= x is incremented by the amount
+-= x is decremented by the amount
+/= x is divided by the amount
+*= x is multiplied by the amount
