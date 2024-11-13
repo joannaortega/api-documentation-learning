@@ -32,3 +32,81 @@ Assignment Operators
 -= x is decremented by the amount
 /= x is divided by the amount
 *= x is multiplied by the amount
+
+
+If statements
+- a == b : equals
+- a != b : not equals
+- a < b : less than
+- a <= b : less than or equal to
+- a > b : greater than
+- a >= b : greater than or equal to
+
+if : runs if first statement is true
+else: makes it run if if statement is false.
+elif : use to add multiple test expressions to your program. Program will only enter if elif statement if first if statement is false
+
+Boolean operators
+- and : both need to be true 
+- or : only one needs to be true
+
+Multiline Text:
+- newline character : \n
+- triple quotation  marks : """
+
+to separate string at every space: .split()
+to join an iterable (like a list) as an argument: .join()
+Search for a string, insert "in" operator
+To search for position: .find()
+convert string to lowercase: .lower()
+convert string to uppercase: .upper()
+
+.isnumeric() : all have to be numeric; negative numbers wouldn't work
+.isdecimal()
+
+.endswith() : verifying the last caracter of a string
+.replace() : find and replace occurences of a character/group of characters
+
+%s : placeholder for variable in a string
+.format() uses {} as placeholders within a string
+
+floor division: //
+absolute values: abs
+rounding: round
+
+lists are created with brackets [], values separated by ,
+indexes start from 0.
+len() : length of a list
+remove last item with .pop()
+negative indexes work by starting at the end of the list
+max() returns the largest number
+min() returns the smallest number
+.sort() to sort a list
+.sort(reverse=True) to sort a list in reverse order
+
+while
+- check for another line in file
+- check if flag has been set
+- check if a user has finished entering values
+- check if something else has changed to indicate that the code can stop performing the operation
+How it's used
+
+while <condition>:
+
+
+for - used to iterate over lists
+- the word for, followed by a space
+- the variable name you want to create for each value in the sequence (number). Note multiple variables need to be separated by commas.
+- The word in, surrounded by spaces
+- The name of the list or iterable that you want to loop over, followed by a colon (:)
+- The code you want to run for each item in the iterable, separated by nested whitespace
+
+
+
+
+
+
+
+
+
+
