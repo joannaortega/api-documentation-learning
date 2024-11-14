@@ -104,7 +104,17 @@ for - used to iterate over lists
 Dictionary is denoted with {} and : in 'key' : 'value' format.
 get - use to access a value using the key. OR you can just put the key in []
 
+update - modify dictionary option
+pop - returns the value and removes the key from the dictionary
+keys() - returns a list object that contains all the keys
+values() - returns the list of all values in a dictionary without the keys
 
+def - use to create a function followed by a name, parenthesis, and body with function code
+any() - requires an argument
+separate multiple arguments using a ,
+* - use variable arguments before argument's name
+
+traceback - body of text that can point to the origin and ending of unhandled error
 
 
 
