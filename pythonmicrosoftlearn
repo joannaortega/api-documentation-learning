@@ -101,6 +101,11 @@ for - used to iterate over lists
 - The name of the list or iterable that you want to loop over, followed by a colon (:)
 - The code you want to run for each item in the iterable, separated by nested whitespace
 
+Dictionary is denoted with {} and : in 'key' : 'value' format.
+get - use to access a value using the key. OR you can just put the key in []
+
+
+
 
 
 
