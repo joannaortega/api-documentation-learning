@@ -115,7 +115,11 @@ separate multiple arguments using a ,
 * - use variable arguments before argument's name
 
 traceback - body of text that can point to the origin and ending of unhandled error
-
+Tracebacks almost always include the following:
+- All file paths involved, for every call to every function
+- Line numbers associated with every file path
+- The names of functions, methods, or classes involved in producing an exception
+- The name of the exception that was raised.
 
 
 
